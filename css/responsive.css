@@ -1,0 +1,50 @@
+@media screen and (max-width:991.98px) {
+    .navbar{
+        display: none;
+    }
+
+    .myAccount{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
+    .myAccountPhone{
+        display: block;
+    }
+
+    .main-top-imgs .img-1{
+        padding: 54px 50px 162px;
+    }
+
+    .flash-sale .card{
+        flex-direction: row;
+    }
+
+    .flash-sale .img{
+        height: 280px;
+    }
+
+    .aside-img{
+        display: none;
+    }
+
+    section{
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width:767.98px){
+    .header .search .categories{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:575.98px){
+    .myAccountPhone .account, .wishlist{
+        display: none;
+    }
+}

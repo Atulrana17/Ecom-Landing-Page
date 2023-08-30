@@ -1,0 +1,611 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* header */
+
+.header{
+    background-color: #122239;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.header .menu-btn button{
+    border: none;
+    background: none;
+    color: white;
+    padding: 10px 18px;
+    font-size: 24px;
+}
+
+.menu-btn{
+    display: none;
+}
+
+/* logo */
+
+.logo img{
+    width: 110px;
+}
+.logo a{
+    text-decoration: none;
+}
+
+/* searchbar */
+
+.offcanvas{
+    width: 80% !important;
+}
+
+.offcanvas li{
+    padding: 10px 18px;
+}
+
+.offcanvas li a{
+    color: black;
+    font-weight: 100;
+}
+
+.header .search{
+    background-color: white;
+    border-radius: 26px;  
+    width: 100%;
+    margin: 10px 0;
+}
+
+.header .search input{
+    border: none;
+    border-radius: 26px;
+    padding: 8px 16px;
+    outline: none;
+    width: 100%;
+}
+
+.divider{
+    height: 38px;
+    border-right: 1px solid #ccc;
+}
+
+.header .search .categories{
+    border: none;
+    border-left: 2px solid #ccc;
+    padding: 8px;
+    width: 150px;
+    cursor: pointer;
+    background: none;
+}
+
+.header .search button{
+    border: none;
+    background: none;
+    height: 40px;
+    background-color: #e0b641;
+    width: 68px;
+    border-radius: 22px;
+}
+
+.header a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+/* Account,wishlist */
+
+.myAccount button{
+    background: none;
+    border: none;
+}
+
+.myAccount i {
+    display: flex;
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cccccc1e;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.wishlist, .account, .cart{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    float: right;
+}
+
+.myAccount a{
+    display: flex;
+    font-size: .8em;
+    text-decoration: none;
+    color: white;
+}
+
+.myAccount p strong{
+    font-size: 1rem;
+}
+
+.myAccountPhone{
+    display: none;
+}
+
+/* <!-- -------- Header end ------- --> */
+
+/* <!-- -------- navbar start ------- --> */
+
+.navbar{
+    background-color: #122239ee;
+}
+
+.navbar .browse-cat button{
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.navbar .dropdown-menu a{
+    color: black;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 0 11px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    color: #699c47;
+}
+
+/*  -------- navbar end -------  */
+
+
+/* ------- Main top section--------- */
+
+.main-top h2{
+    font-size: 38px;
+    padding: 16px 0;
+}
+
+.main-top h4{
+    font-size: 32px;
+}
+
+.main-top .bg-img-1 button{
+    padding: 12px 34px;
+    border: none;
+    border-radius: 24px;
+    background-color: #699c47;
+    color: white;
+    font-weight: 600;
+    transition: background-color ease .5s;
+}
+
+.main-top .bg-img-1 button:hover{
+    color: #699c47;
+    background-color: white;
+}
+
+.main-top button{
+    padding: 12px 34px;
+    border: none;
+    border-radius: 24px;
+    color: #699c47;
+    background-color: white;
+    font-weight: 600;
+}
+
+.main-top button:hover{
+    background-color: #699c47;
+    color: white;
+    transition: background-color ease .5s;
+}
+
+.main-top .bg-img-1{
+    background: url('../Images/Top main/Juice bottle.jpg') no-repeat center center/cover;
+    text-align: center;
+    z-index: 0;
+    padding-top: 44px;
+    height: 100%;
+}
+
+.main-top .bg-img-2{
+    background: url('../Images/Top main/Pastry.jpg') no-repeat center center/cover;
+    z-index: 0;
+}
+
+.main-top .bg-img-3{
+    background: url('../Images/Top main/lemon.jpg') no-repeat center center/cover;
+    z-index: 0;
+}
+
+.main-top .bg-img-4{
+    background: url('../Images/Top main/pasta.jpg') no-repeat center center/cover;
+    z-index: 0;
+}
+
+/* ----Services section start---- */
+
+.services i{
+    font-size: 32px;
+    color: #e0b641;
+    padding: 0 5px;
+}
+
+/* ----Services section end---- */
+
+/* Top categories starts */
+.top-categories img {
+    height: 180px;
+    padding: 12px 8px;
+}
+
+.top-categories .product{
+    height: 220px;
+    color: black;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    text-align: center;
+    margin: 12px 0;
+    transition: box-shadow ease 0.5s;
+}
+
+.top-categories .product:hover{
+    box-shadow: 0 0 8px  #b3b1ab;
+}
+
+/* Top categories end */
+
+/* Banner section */
+
+.banners .bg-img-1{
+    background: url('../Images/Top main/lemon.jpg') no-repeat center center/cover;
+    z-index: 0;
+}
+
+.banners .bg-img-2{
+    background: url('../Images/Top main/pasta.jpg') no-repeat center center/cover;
+    z-index: 0;
+}
+
+.banners .bg-img-3{
+    background: url('../Images/Top main/Pastry.jpg') no-repeat center center/cover;
+    z-index: 0;
+}
+
+.banners .bg-img{
+    padding: 34px 70px 24px 22px;
+}
+
+.banners a{
+    color: white;
+}
+
+/* Flash sale section */
+
+.flash-sale .carousel-control-prev , .carousel-control-next{
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    top: -45px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.flash-sale .img{
+    height: 200px;
+    padding: 14px 8px;
+}
+
+.flash-sale .card{
+    position: relative;
+    text-align: center;
+    /* border: 2px solid #ccc; */
+}
+
+.flash-sale .card::after{
+    content: "50% off";
+    position: absolute;
+    top: 18px;
+    right: 0;
+    background-color: #699c47;
+    color: white;
+    padding: 4px 18px;
+    border-radius: 16px;
+    transform: rotate(270deg);
+}
+
+.flash-sale .card span{
+    color: white;
+    background-color: #699c47;
+    padding: 6px 4px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.flash-sale .addtoCart{
+    padding: 8px 32px;
+    margin: 20px 0;
+    border: 2px solid #699c47;
+    border-radius: 8px;
+    background-color: #699c47;
+    color: white;
+    transition: background-color ease 0.4s;
+}
+
+.flash-sale .addtoCart:hover{
+    color: #699c47;
+    background-color: white;
+}
+
+/* Offer */
+
+.flash-sale .offer{
+    text-align: center;
+    padding: 36px 8px;
+    margin: 16px 0;
+}
+
+.flash-sale .offer p{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 12px;
+}
+
+.flash-sale .offer .btn{
+    padding: 10px 38px;
+    border-radius: 30px;
+}
+
+.flash-sale .bg-img{
+    background: url('..//Images/Top main/lemon.jpg') no-repeat center center/cover;
+    z-index: 0;
+}
+
+/* Newest products start */
+
+.Newest-product .img{
+    height: 200px;
+    padding: 12px 0px;
+}
+
+.Newest-product .tabs button{
+    color: #b3b1ab;
+}
+
+.Newest-product .card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px 0;
+}
+
+/* Top best selling section */
+
+.top-best-selling .card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px;
+    transition: box-shadow 0.5s ease;
+}
+
+.top-best-selling .card:hover{
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.top-best-selling .img{
+    height: 140px;
+}
+
+.top-best-selling .tabs button{
+    color: #b3b1ab;
+}
+
+.aside-img > div{
+    background: url('..//Images/Top main/lemon.jpg') no-repeat center center/cover;
+    height: 100%;
+}
+
+
+/* Explore Popular categories */
+
+.explore-popular-categories a{
+    color: #122239;
+}
+
+.explore-popular-categories .see-all{
+    text-align: right;
+    position: relative;
+}
+
+.explore-popular-categories .see-all::after{
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    right: 43px;
+    width: 20px;
+    border: 2px solid #122239;
+    border-radius: 5px;
+}
+
+.explore-popular-categories .category{
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin: 10px 0px;
+}
+
+.explore-popular-categories li{
+    opacity: 0.8;
+    padding: 5px 0;
+}
+
+.explore-popular-categories li:hover{
+    opacity: 1;
+}
+
+.explore-popular-categories .view-more{
+    position: relative;
+}
+
+.explore-popular-categories .view-more::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 24px;
+    border: 2px solid #122239;
+    border-radius: 5px;
+}
+
+/* Testimonials section */
+
+.testimonials{
+    background: url('..//Images/testimonial/test.jpeg') no-repeat center center/cover;
+    padding: 88px 16px;
+}
+
+.testimony{
+    padding: 16px 24px;
+    margin: 0 12px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+.testimony h5{
+    position: relative;
+}
+
+.testimony h5::after{
+    content: ",,";
+    position: absolute;
+    right: 0;
+    top: -100px;
+    font-size: 8rem;
+    color: #699c47;
+}
+
+
+/* Footer section */
+
+.footer{
+    background-color: #122239;
+    padding: 24px 12px;
+    color: white;
+}
+
+.footer .subscribe input{
+    width: 50%;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.footer .subscribe .btn{
+    padding: 12px 16px;
+    border: none;
+}
+
+.footer .contact i{
+    font-size: 24px;
+    padding: 2px 20px 0 0;
+}
+
+.footer a{
+    color: white;
+    padding: 10px 5px;
+}
+
+.footer a:hover{
+    color: #699c47;
+}
+
+.footer li{
+    padding: 10px 0;
+}
+
+.footer h3{
+    padding: 16px 0;
+}
+
+
+/* utilities */
+
+section{
+    padding: 18px 34px;
+}
+
+span{
+    font-weight: 600;
+    padding: 4px 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 900;
+    margin: 8px 0;  
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    transition: color ease 0.3s;
+}
+
+.bg-img{
+    position: relative;
+    color: white;
+    padding: 24px 20px 128px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.bg-img::before{
+    content: "";
+    position: absolute;
+    background: rgba(34, 34, 34, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 8px;
+}
+
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.btn{
+    border: 2px solid #699c47;
+    background-color: #699c47;
+    color: white;
+    transition: background-color ease 0.4s;
+}
+.btn:hover{
+    border: 2px solid #699c47;
+    color: #699c47;
+    background-color: white;
+}
